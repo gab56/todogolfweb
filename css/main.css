@@ -1,0 +1,99 @@
+body {
+  background-color: white;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+.wrapper {
+  display: flex;
+  align-items: stretch;
+}
+
+.sidebar-img {
+  width: 200px;
+}
+
+.header {
+  background-image: url('../images/slider-2.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+.overlay {
+  min-height: 100%;
+  min-width: 100%;
+  background: rgba(179, 179, 179, 0.79);
+  display: table;
+}
+
+.container {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.description {
+  margin-left: 15%;
+  margin-right: 15%;
+  padding: 2em;
+  text-align: center;
+}
+
+.description h1 {
+  font-family: 'New Athletic M54';
+  font-size: 3.5em;
+}
+
+.description p {
+  font-size: 20px;
+  line-height: 1.5;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.description button {
+  border:1px  solid black;
+  background:black;
+  color:#fff;
+  border-radius: 25px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+a, a:hover, a:focus {
+  color: inherit;
+}
+
+#sidebar {
+  min-width: 250px;
+  max-width: 250px;
+  min-height: 100vh;
+  background: black;
+  transition: all 0.3s;
+  text-align: center;
+}
+
+#sidebar ul li a {
+  font-family: 'New Athletic M54';
+  color: grey;
+  padding: 20px;
+  font-size: 1.7em;
+  display: block;
+}
+
+#sidebar ul li a:hover {
+  text-decoration: none;
+  color: #95ad66;
+}
+
+#sidebar ul li a.active {
+  color: #95ad66;
+}
+
+#sidebar.active {
+  margin-left: -250px;
+}
+
+@font-face {
+  font-family: 'New Athletic M54';
+  src: local('New Athletic M54'), url('New Athletic M54.woff') format('woff');
+}
