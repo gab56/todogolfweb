@@ -1,7 +1,7 @@
 body {
   background-color: white;
   font-family: 'Poppins', sans-serif;
-  color: white;
+  color: black;
 }
 
 .wrapper {
@@ -14,6 +14,7 @@ body {
 }
 
 .header {
+  margin-left: 300px;
   background-image: url('../images/slider-2.jpg');
   background-attachment: fixed;
   background-size: cover;
@@ -23,7 +24,7 @@ body {
 .overlay {
   min-height: 100%;
   min-width: 100%;
-  background: rgba(179, 179, 179, 0.79);
+  background: rgba(13, 16, 15, 0.3);
   display: table;
 }
 
@@ -33,6 +34,7 @@ body {
 }
 
 .description {
+  color: white;
   margin-left: 15%;
   margin-right: 15%;
   padding: 2em;
@@ -40,6 +42,15 @@ body {
 }
 
 .description h1 {
+  font-family: 'New Athletic M54';
+  font-size: 3.5em;
+}
+
+.title h1 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+  color: #95ad66;
   font-family: 'New Athletic M54';
   font-size: 3.5em;
 }
@@ -64,8 +75,9 @@ a, a:hover, a:focus {
 }
 
 #sidebar {
-  min-width: 250px;
-  max-width: 250px;
+  position: fixed;
+  min-width: 300px;
+  max-width: 300px;
   min-height: 100vh;
   background: black;
   transition: all 0.3s;
@@ -91,6 +103,24 @@ a, a:hover, a:focus {
 
 #sidebar.active {
   margin-left: -250px;
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+div .service-icon {
+  margin-top: 40px;
+  text-align: center;
+}
+
+figure {
+  width: 45%;
+}
+
+figcaption {
+  margin-top: 20px;
 }
 
 @font-face {
