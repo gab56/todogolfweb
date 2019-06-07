@@ -13,18 +13,26 @@ body {
   width: 200px;
 }
 
-.header {
+.body {
   margin-left: 300px;
-  background-image: url('../images/slider-2.jpg');
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
+  background-image: url('../images/slider-2.jpg');
 }
 
-.overlay {
+.academy-body {
+  margin-left: 300px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-image: url('../images/long-island-golf1.jpg');
+}
+
+.header {
+  background: rgba(13, 16, 15, 0.3);
   min-height: 100%;
   min-width: 100%;
-  background: rgba(13, 16, 15, 0.3);
   display: table;
 }
 

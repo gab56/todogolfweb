@@ -1,6 +1,9 @@
 $(document).ready(function () {
 
-  $('.header').height($(window).height());
-  $('.header').width($(window).width());
+  $('.body').height($(window).height());
+  $('.body').width($(window).width());
+
+  $('.academy-body').height($(window).height()/1.7);
+  $('.academy-body').width($(window).width());
 
 });
