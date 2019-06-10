@@ -4,11 +4,6 @@ body {
   color: black;
 }
 
-.wrapper {
-  display: flex;
-  align-items: stretch;
-}
-
 .sidebar-img {
   width: 200px;
 }
@@ -70,15 +65,16 @@ body {
 }
 
 .description button {
-  border:1px  solid black;
-  background:black;
-  color:#fff;
+  border: 1px solid black;
+  background: black;
+  color: #fff;
   border-radius: 25px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-
-a, a:hover, a:focus {
+a,
+a:hover,
+a:focus {
   color: inherit;
 }
 
