@@ -31,6 +31,10 @@ body {
   display: table;
 }
 
+.academy-header {
+  margin-bottom: -25px;
+}
+
 .container {
   display: table-cell;
   vertical-align: middle;
@@ -125,6 +129,16 @@ figure {
 
 figcaption {
   margin-top: 20px;
+}
+
+.nav-tabs {
+  border-bottom: 0px !important;
+}
+
+.nav-item {
+  background-color: grey;
+  color: white;
+  margin: 5px;
 }
 
 @font-face {
