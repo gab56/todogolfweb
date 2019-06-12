@@ -48,6 +48,26 @@ body {
   text-align: center;
 }
 
+.text-area {
+  padding-left: 5%;
+}
+
+.text-area img {
+  width: 450px;
+  margin-top: 40px;
+}
+
+.text-area p {
+  font-size: 1.2em;
+}
+
+.text-area h1 {
+  font-family: 'New Athletic M54';
+  font-size: 2em;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
 .description h1 {
   font-family: 'New Athletic M54';
   font-size: 3.5em;
@@ -132,6 +152,7 @@ figcaption {
 }
 
 .nav-tabs {
+  margin-bottom: 60px;
   border-bottom: 0px !important;
 }
 
