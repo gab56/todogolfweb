@@ -5,11 +5,11 @@ body {
 }
 
 .sidebar-img {
-  width: 200px;
+  width: 90%;
 }
 
 .body {
-  margin-left: 300px;
+  margin-left: 22%;
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
@@ -17,8 +17,7 @@ body {
 }
 
 .academy-body {
-  margin-left: 300px;
-  background-attachment: fixed;
+  margin-left: 22%;
   background-size: cover;
   background-position: center;
   background-image: url('../images/long-island-golf1.jpg');
@@ -48,28 +47,57 @@ body {
   text-align: center;
 }
 
-.text-area {
-  padding-left: 5%;
+.contact-area {
+  background-color: #95ad66;
+  height: 180px;
+  color: white;
+  text-align: center;
+  padding: 0% 15%;
 }
 
-.text-area img {
-  width: 450px;
-  margin-top: 40px;
+.text-area {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+}
+
+.circle-img {
+  width: 50%;
+  border-radius: 50%;
+}
+
+.square-img {
+  width: 100%;
+  margin-bottom: 40px;
 }
 
 .text-area p {
   font-size: 1.2em;
 }
 
-.text-area h1 {
+figure {
+  width: auto !important;
+}
+
+h1 {
   font-family: 'New Athletic M54';
   font-size: 2em;
+}
+
+.image-area h1 {
+  padding-left: 5%;
+  margin-bottom: 5%;
+}
+
+.centered {
+  text-align: center;
+}
+
+.text-area h1 {
   margin-bottom: 40px;
-  margin-top: 40px;
 }
 
 .description h1 {
-  font-family: 'New Athletic M54';
   font-size: 3.5em;
 }
 
@@ -78,7 +106,6 @@ body {
   margin-bottom: 40px;
   text-align: center;
   color: #95ad66;
-  font-family: 'New Athletic M54';
   font-size: 3.5em;
 }
 
@@ -104,8 +131,8 @@ a:focus {
 
 #sidebar {
   position: fixed;
-  min-width: 300px;
-  max-width: 300px;
+  min-width: 22%;
+  max-width: 22%;
   min-height: 100vh;
   background: black;
   transition: all 0.3s;
@@ -143,6 +170,10 @@ div .service-icon {
   text-align: center;
 }
 
+div .input-email {
+  padding: 0% 15%;
+}
+
 figure {
   width: 45%;
 }
@@ -159,7 +190,11 @@ figcaption {
 .nav-item {
   background-color: grey;
   color: white;
-  margin: 5px;
+}
+
+footer {
+  padding-top: 3em;
+  background-color: black;
 }
 
 @font-face {

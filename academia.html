@@ -2,106 +2,195 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
-    <script type="text/javascript" src="js/index.js"></script>
-    <title>This is the title of the webpage!</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+  <script type="text/javascript" src="js/index.js"></script>
+  <title>Todogolf</title>
 </head>
 
 <body>
-    <div class="h-100 w-100 d-flex">
+  <div class="h-100 w-100 d-flex">
 
-        <nav id="sidebar">
-            <ul class="list-unstyled components">
-                <li>
-                    <a href="#"><img class="sidebar-img" src="images/Group 10.png"></a>
-                </li>
-                <li>
-                    <a href="academia.html">ACADEMIA</a>
-                </li>
-                <li>
-                    <a>TIENDA</a>
-                </li>
-                <li>
-                    <a>CONSULTORIA Y DISENO</a>
-                </li>
-                <li>
-                    <a>MINIGOLF</a>
-                </li>
-            </ul>
-        </nav>
+    <nav id="sidebar">
+      <ul class="list-unstyled components">
+        <li>
+          <a href="index.html"><img class="sidebar-img" src="images/Group 10.png"></a>
+        </li>
+        <li>
+          <a href="academia.html">ACADEMIA</a>
+        </li>
+        <li>
+          <a>TIENDA</a>
+        </li>
+        <li>
+          <a>CONSULTORIA Y DISENO</a>
+        </li>
+        <li>
+          <a>MINIGOLF</a>
+        </li>
+      </ul>
+    </nav>
 
-        <div class="academy-body">
-            <div class="header academy-header">
-                <div class="container" role="alert">
-                    <div class="description">
-                        <h1>ACADEMIA</h1>
-                    </div>
-                </div>
+    <div class="academy-body">
+      <div class="header academy-header">
+        <div class="container" role="alert">
+          <div class="description">
+            <h1>ACADEMIA</h1>
+          </div>
+        </div>
+      </div>
+      <ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home"
+            aria-selected="true">Bienvenida</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="profile-tab" data-toggle="tab" href="#teachers" role="tab" aria-controls="teachers"
+            aria-selected="false">Instructores</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="contact-tab" data-toggle="tab" href="#executive-golf" role="tab"
+            aria-controls="executive-golf" aria-selected="false">Golf Ejecutivo</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="contact-tab" data-toggle="tab" href="#youth-golf" role="tab"
+            aria-controls="youth-golf" aria-selected="false">Golf Juvenil</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="contact-tab" data-toggle="tab" href="#schedule" role="tab" aria-controls="schedule"
+            aria-selected="false">Tarifas y Horarios</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="contact-tab" data-toggle="tab" href="#news" role="tab" aria-controls="news"
+            aria-selected="false">Tips y Noticias</a>
+        </li>
+      </ul>
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 text-area">
+              <h1>Bienvenido a nuestra academia</h1>
+              <p>Nuestro personal, altamente calificado, se encargará de brindarle un excelente nivel de
+                entrenamiento y además, un rato agradable.</p>
+              <p>Contamos con un sistema de entrenamiento único en Costa Rica. Software Partner con el PGA Learning
+                Center
+                y para complementarlo a perfección, un sistema de análisis de swing de alta tecnología.
+                Ambos ayudan a que todos nuestro alumnos entiendan mucho mas rápido como lograr el swing que tanto han
+                buscado.
+              </p>
+              <h1>Nuestra Mision</h1>
+              <p>Apoyar y guiar a todos nuestros alumnos en la búsqueda del cumplimiento de sus metas en el deporte del
+                golf.</p>
             </div>
-            <ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
-              <li class="nav-item">
-                <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Bienvenida</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" id="profile-tab" data-toggle="tab" href="#teachers" role="tab" aria-controls="teachers" aria-selected="false">Instructores</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" id="contact-tab" data-toggle="tab" href="#executive-golf" role="tab" aria-controls="executive-golf" aria-selected="false">Golf Ejecutivo</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" id="contact-tab" data-toggle="tab" href="#youth-golf" role="tab" aria-controls="youth-golf" aria-selected="false">Golf Juvenil</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" id="contact-tab" data-toggle="tab" href="#schedule" role="tab" aria-controls="schedule" aria-selected="false">Tarifas y Horarios</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" id="contact-tab" data-toggle="tab" href="#news" role="tab" aria-controls="news" aria-selected="false">Tips y Noticias</a>
-              </li>
-            </ul>
-            <div class="tab-content" id="myTabContent">
-              <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                <div class="row">
-                  <div class="col-lg-6 col-md-6 col-sm-12 text-area">
-                    <h1>Bienvenido a nuestra academia</h1>
-                    <p>Nuestro personal, altamente calificado, se encargará de brindarle un excelente nivel de
-                      entrenamiento y además, un rato agradable.</p>
-                    <p>Contamos con un sistema de entrenamiento único en Costa Rica. Software Partner con el PGA Learning Center
-                      y para complementarlo a perfección, un sistema de análisis de swing de alta tecnología.
-                      Ambos ayudan a que todos nuestro alumnos entiendan mucho mas rápido como lograr el swing que tanto han buscado.
-                    </p>
-                    <h1>Nuestra Mision</h1>
-                    <p>Apoyar y guiar a todos nuestros alumnos en la búsqueda del cumplimiento de sus metas en el deporte del golf.</p>
-                  </div>
-                  <div class="col-lg-6 col-md-6 col-sm-12 text-area">
-                    <img class="img" src="images/girl-golfing.jpg">
-                    <h1>Nuestra Vision</h1>
-                    <p>Desarrollar el deporte del Gold a niveles nunca antes vistos en nuestro país</p>
-                    <p>Educar desde la excelencia, hacia la ética, la honradez suprema y el respeto a las reglas del juego que son
-                      para nosotros prácticamente las mismas de la vida en sociedad.</p>
-                    <p>No importa su edad, habilidad, sexo, hándicap alto o bajo, los métodos que utilizamos le llevarán a lograr sus objectivos a corto,
-                      mediano y largo plazo.
-                    </p>
-                    </p>
-                  </div>
-                </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 text-area">
+              <img class="img square-img" src="images/girl-golfing.jpg">
+              <h1>Nuestra Vision</h1>
+              <p>Desarrollar el deporte del Gold a niveles nunca antes vistos en nuestro país</p>
+              <p>Educar desde la excelencia, hacia la ética, la honradez suprema y el respeto a las reglas del juego que
+                son
+                para nosotros prácticamente las mismas de la vida en sociedad.</p>
+              <p>No importa su edad, habilidad, sexo, hándicap alto o bajo, los métodos que utilizamos le llevarán a
+                lograr sus objectivos a corto,
+                mediano y largo plazo.
+              </p>
+            </div>
+          <div class="col-lg-12 col-md-12 col-sm-12 contact-area">
+            <h1 style="margin-top: 5px">
+              SUBSCRIBASE AQUI Y RECIBA TIPS NOTICIAS Y OFERTAS DE ARTICULOSDE GOLF TODAS LAS SEMANAS
+            </h1>
+            <div class="input-group input-group-sm mb-3 input-email">
+              <input placeholder="email" type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
+            </div>
+            <div>
+                <button type="button" class="btn btn-dark">Reservar espacio</button>
               </div>
-              <div class="tab-pane fade" id="teachers" role="tabpanel" aria-labelledby="teachers-tab"></div>
-              <div class="tab-pane fade" id="executive-golf" role="tabpanel" aria-labelledby="executive-golf-tab"></div>
-              <div class="tab-pane fade" id="youth-golf" role="tabpanel" aria-labelledby="youth-golf-tab"></div>
-              <div class="tab-pane fade" id="schedule" role="tabpanel" aria-labelledby="schedule-tab"></div>
-              <div class="tab-pane fade" id="news" role="tabpanel" aria-labelledby="news-tab"></div>
+          </div>
+          </div>
+        </div>
+        <div class="tab-pane fade image-area" id="teachers" role="tabpanel" aria-labelledby="teachers-tab">
+          <h1>Instructores</h1>
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 centered">
+              <figure class="figure">
+                <img class="img circle-img" src="images/teacher_2.jpg">
+                <figcaption class="figure-caption text-center">ALEJANDRO DUQUE</figcaption>
+              </figure>
             </div>
-
+            <div class="col-lg-6 col-md-6 col-sm-12 centered">
+              <figure class="figure">
+                <img class="img circle-img" src="images/teacher_1.jpg">
+                <figcaption class="figure-caption text-center">JAIRO GARCIA</figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="executive-golf" role="tabpanel" aria-labelledby="executive-golf-tab">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 text-area">
+              <h1>Golf ejecutivo</h1>
+              <p>Ya lo dice Donald Trump en su libreo "Cómo hacerse rico" : "Fuí a jugar golf a uno de mis campos,
+                algunos creeran que estoy perdiendo el timepo, pero yo lo tomo como un trabajo, y disfruto mucho
+                haciéndolo.
+                DUrante la práctica se me acercaron 4 personas que deseaban formar parte de mi exclusivo club de gold.
+                Les dije que la membresía costaba US $250.000 y ellos me hicieron un cheque cada uno.
+                Esa tarde volví a mi casa con US 1M y todo por haber ido a jugar al golf. Quiere hacer buenos negocios?
+                Juegue golf."</p>
+              <p>Ofrecemos:</p>
+              <ul>
+                <li>Lecciones a Ejecutivos</li>
+                <li>Clinicas Empresariales</li>
+                <li>Charlas sobre Reglas del Golf</li>
+                <li>Charlas del Juego del Golf</li>
+                <li>Team Buildings</li>
+              </ul>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 text-area">
+              <img class="img square-img" src="images/shaking-hands.jpg">
+              <img class="img square-img" src="images/shaking_hands2.jpg">
+              <h1>El Golf y los negocios van de la mano</h1>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade image-area" id="youth-golf" role="tabpanel" aria-labelledby="youth-golf-tab">
+          <h1>Golf Juvenil</h1>
+          <div class="row">
+            <div class="col-lg-8 col-md-8 col-sm-12 text-area">
+              <img class="img square-img" src="images/kids_playing.jpg">
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 text-area">
+              <p>Clinicas infantiles y juveniles.</p>
+              <p>Haga que sus hijos sean parte del deporte de mayor crecimiento en los últimos años.</p>
+              <p><b>Todos los sábados de 8:30am a 10:30am</b></p>
+              <p><b>Costo mensual 50$</b></p>
+              <div>
+                <button type="button" class="btn btn-dark">Reservar espacio</button>
+              </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="schedule" role="tabpanel" aria-labelledby="schedule-tab"></div>
+        <div class="tab-pane fade" id="news" role="tabpanel" aria-labelledby="news-tab"></div>
+      </div>
+      <footer class="page-footer"></footer>
     </div>
 
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"></script>
 </body>
 
 </html>
